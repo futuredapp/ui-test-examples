@@ -86,6 +86,7 @@ class ui_tests_exampleUITests: XCTestCase {
         app.tables.staticTexts["Interactions"].tap()
 
         let typeTextHereTextField = app.textFields["type text here"]
+        typeTextHereTextField.tap()
         typeTextHereTextField.typeText("hello world, this is test")
 
         app.sliders.element.adjustToNormalizedSliderPosition(1)
@@ -96,10 +97,10 @@ class ui_tests_exampleUITests: XCTestCase {
         app2.buttons["B"].tap()
         app2.buttons["C"].tap()
         
-        let datePickersQuery = app.datePickers
-        datePickersQuery.pickerWheels["Today"].tap()
-        datePickersQuery.pickerWheels["8 o'clock"].tap()
-        datePickersQuery.pickerWheels["17 minutes"].tap()
+        // watchout for localization!
+        app.pickerWheels.elementBoundByIndex(0).adjustToPickerWheelValue("June")
+        app.pickerWheels.elementBoundByIndex(1).adjustToPickerWheelValue("13")
+        app.pickerWheels.elementBoundByIndex(2).adjustToPickerWheelValue("1990")
         app.navigationBars["UIView"].buttons["Root View Controller"].tap()
         
     }

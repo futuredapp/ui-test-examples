@@ -144,7 +144,7 @@
                                     <segment title="D"/>
                                 </segments>
                             </segmentedControl>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ESO-61-kPX">
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ESO-61-kPX">
                                 <rect key="frame" x="140" y="274" width="320" height="216"/>
                                 <date key="date" timeIntervalSinceReferenceDate="480323695.91070902">
                                     <!--2016-03-22 07:14:55 +0000-->
