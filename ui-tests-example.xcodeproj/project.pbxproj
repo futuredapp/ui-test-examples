@@ -14,6 +14,9 @@
 		EEC984AA1CA11CFE00E2B3A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC984A81CA11CFE00E2B3A2 /* LaunchScreen.storyboard */; };
 		EEC984B51CA11CFE00E2B3A2 /* ui_tests_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC984B41CA11CFE00E2B3A2 /* ui_tests_exampleTests.swift */; };
 		EEC984C01CA11CFE00E2B3A2 /* ui_tests_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC984BF1CA11CFE00E2B3A2 /* ui_tests_exampleUITests.swift */; };
+		EEC984CE1CA120E300E2B3A2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EEC984CD1CA120E300E2B3A2 /* README.md */; };
+		EEC984D11CA1234A00E2B3A2 /* AppearanceTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC984D01CA1234A00E2B3A2 /* AppearanceTestViewController.swift */; };
+		EEC984D31CA1254700E2B3A2 /* ExistanceTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC984D21CA1254700E2B3A2 /* ExistanceTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		EEC984BB1CA11CFE00E2B3A2 /* ui-tests-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ui-tests-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC984BF1CA11CFE00E2B3A2 /* ui_tests_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ui_tests_exampleUITests.swift; sourceTree = "<group>"; };
 		EEC984C11CA11CFE00E2B3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC984CD1CA120E300E2B3A2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EEC984D01CA1234A00E2B3A2 /* AppearanceTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceTestViewController.swift; sourceTree = "<group>"; };
+		EEC984D21CA1254700E2B3A2 /* ExistanceTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistanceTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		EEC984931CA11CFD00E2B3A2 = {
 			isa = PBXGroup;
 			children = (
+				EEC984CD1CA120E300E2B3A2 /* README.md */,
 				EEC9849E1CA11CFE00E2B3A2 /* ui-tests-example */,
 				EEC984B31CA11CFE00E2B3A2 /* ui-tests-exampleTests */,
 				EEC984BE1CA11CFE00E2B3A2 /* ui-tests-exampleUITests */,
@@ -97,6 +104,7 @@
 		EEC9849E1CA11CFE00E2B3A2 /* ui-tests-example */ = {
 			isa = PBXGroup;
 			children = (
+				EEC984CF1CA1233D00E2B3A2 /* Controllers */,
 				EEC9849F1CA11CFE00E2B3A2 /* AppDelegate.swift */,
 				EEC984A11CA11CFE00E2B3A2 /* ViewController.swift */,
 				EEC984A31CA11CFE00E2B3A2 /* Main.storyboard */,
@@ -123,6 +131,15 @@
 				EEC984C11CA11CFE00E2B3A2 /* Info.plist */,
 			);
 			path = "ui-tests-exampleUITests";
+			sourceTree = "<group>";
+		};
+		EEC984CF1CA1233D00E2B3A2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EEC984D01CA1234A00E2B3A2 /* AppearanceTestViewController.swift */,
+				EEC984D21CA1254700E2B3A2 /* ExistanceTestViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC984CE1CA120E300E2B3A2 /* README.md in Sources */,
+				EEC984D11CA1234A00E2B3A2 /* AppearanceTestViewController.swift in Sources */,
 				EEC984A21CA11CFE00E2B3A2 /* ViewController.swift in Sources */,
 				EEC984A01CA11CFE00E2B3A2 /* AppDelegate.swift in Sources */,
+				EEC984D31CA1254700E2B3A2 /* ExistanceTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
